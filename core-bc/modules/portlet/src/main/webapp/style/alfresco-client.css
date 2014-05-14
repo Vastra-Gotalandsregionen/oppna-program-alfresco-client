@@ -1,0 +1,87 @@
+.alfresco-sites-wrap
+{
+   clear: both;
+   margin: 0 1em;
+   padding-top: 0.5em;
+}
+
+.alfresco-sites-wrap ul li a {
+    color: #06579C;
+}
+
+.alfresco-sites-wrap .header-bar
+{
+   background-color: #e3eaec;
+   border: 1px solid #e3eaec;
+   border-bottom: 1px solid #f0f3f4;
+   margin: 0;
+   margin-top: 2em;
+   padding: 0.3em;
+}
+
+.alfresco-sites-wrap .header-bar h2
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.alfresco-sites-wrap .alfresco-sites-results-list
+{
+   border-color: #CBCBCB;
+   border-style: solid;
+   border-width: 0 1px 1px 1px;
+   margin: 0px;
+}
+
+.alfresco-sites-wrap .alfresco-sites-results-list li
+{
+   border-top: 1px dashed #CBCBCB;
+   clear: both;
+   list-style: none;
+   overflow: auto;
+   width: 100%;
+}
+
+.alfresco-sites-wrap .alfresco-sites-results-list li.first
+{
+   border-top: medium none;
+}
+
+.alfresco-sites-wrap .alfresco-sites-results-list li div.icon
+{
+   float: left;
+   padding: 6px;
+}
+
+.alfresco-sites-wrap .alfresco-sites-results-list li div.details
+{
+   float: left;
+   padding: 12px;
+}
+
+.alfresco-sites-wrap .alfresco-sites-results-list li div.details span.visibility
+{
+   color: #fff;
+   float: left;
+   font-size: 93%;
+   padding: 0.1em 0.2em;
+}
+
+.alfresco-sites-wrap .alfresco-site-table 
+{
+ margin-left: 56px;
+    
+}
+
+.alfresco-sites-wrap .alfresco-site-table td {
+    padding: 6px;       
+}
+
+.alfresco-sites-wrap .alfresco-site-table tr.even {
+    background: #eee;
+}
+
+
+
+
