@@ -43,6 +43,7 @@ public class Document {
     private Object permissions;
     private Object custom;
     private Object actionLabels;
+    private Object likes;
 
     public String getNodeRef() {
         return nodeRef;
@@ -306,5 +307,13 @@ public class Document {
 
     public void setActionLabels(Object actionLabels) {
         this.actionLabels = actionLabels;
+    }
+
+    public Object getLikes() {
+        return likes;
+    }
+
+    public void setLikes(Object likes) {
+        this.likes = likes;
     }
 }

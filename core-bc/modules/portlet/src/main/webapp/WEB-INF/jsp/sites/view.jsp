@@ -27,7 +27,7 @@
           
             <c:forEach items="${site.recentModifiedDocuments}" var="document" varStatus="rowCounter">
               <tr class="${rowCounter.count%2==0?'even':'odd'}">           
-                <td>${document.modifiedDate} </td>
+                <td>${document.modifiedOn} </td>
                 <td>${document.fileName}</td>
                 <td>ver: ${document.version}</td>
                 </tr>

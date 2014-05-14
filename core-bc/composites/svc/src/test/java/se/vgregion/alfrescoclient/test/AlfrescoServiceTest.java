@@ -66,7 +66,7 @@ public class AlfrescoServiceTest {
     AlfrescoService alfrescoService;
 
     private static final int port = 8899;
-    private static final String HEADER_FIELD = "X-Alfresco-Remote-User";
+    private static final String HEADER_FIELD = "iv-user";
     private static final String USER_ID = "admin";
     private static Server server = new Server(port);
     private static Boolean correctSSOHeader = false;
